@@ -7,7 +7,7 @@ on:
 jobs:
 
   build:
-    runs-on: "cirun-do-runner--${{ github.run_id }}"
+    runs-on: "cirun-do-runner2-${{ github.run_id }}"
     container: docker/dev-environments-go
     steps:
       - 
