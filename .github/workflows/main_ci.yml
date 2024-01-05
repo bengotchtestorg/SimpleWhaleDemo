@@ -7,7 +7,7 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: "cirun-do-s-1vcpu-1gb-ubuntu-20-04-x64--${{ github.run_id }}"
     container: docker/dev-environments-go
     steps:
       - 
