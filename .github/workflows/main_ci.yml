@@ -7,7 +7,7 @@ on:
 jobs:
 
   build:
-    runs-on: "cirun-do-runner2"
+    runs-on: buildjet-2vcpu-ubuntu-2204
     container: docker/dev-environments-go
     steps:
       - 
